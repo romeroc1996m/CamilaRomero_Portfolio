@@ -1,0 +1,52 @@
+
+
+
+
+@media screen and (min-width:768px) {
+
+}
+
+
+@media screen and (min-width:1200px) {
+
+}
+
+
+@media screen and (min-width:1920px) {
+
+    #skills_title {
+        font-family: "DM Serif Display", serif;
+        font-size: 70px;
+        color: #EAC249;
+        grid-column: 2/4;
+    }
+
+    #skills_a {
+        font-family: "DM Serif Display", serif;
+        font-size: 22px;
+        color: #000;
+        display: block;
+        height: 90px;
+        grid-column-start: 1;
+        grid-column-end: 13;
+    }
+
+    #skills_a li {
+        display:inline;
+        margin-right: 45px;
+        font-family: "DM Serif Display", serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #000;
+        grid-column: 1/-1;
+    }
+
+    #skills_a li a {
+        color:  #000;
+    }
+
+    #skills_a li a:hover {
+        padding-bottom: 8px;        
+        border-bottom: 3px solid #EAC248;
+    }
+}
