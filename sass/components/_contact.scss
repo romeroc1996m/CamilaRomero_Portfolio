@@ -1,0 +1,41 @@
+#contact-title {
+    font-family: "DM Serif Display", serif;
+    font-size: 40px;
+    color: #000;
+    grid-column: -5/-1;
+    text-align: center;
+    margin-top: 50px;
+}
+
+//button properties
+
+.skills-button {
+    border-radius: 131px;
+    height: 17px;
+    min-width: 345px;
+    font-family: "DM Serif Display",serif;
+    padding: inherit;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+@media screen and (min-width:768px) {
+    #contact-title {
+        grid-column: -10/-4;
+        margin-top: 70px;
+    }
+
+    .skills-button {
+        margin-top: 140px;
+        margin-bottom: 80px;
+        margin-left: -371px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+
+    .skills-button {
+        margin-left: -486px;
+    }
+
+}
