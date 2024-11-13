@@ -1,0 +1,67 @@
+footer {
+    height: 400px;
+}
+
+#logo-footer {
+    grid-column:1/2;
+    width: 40px;
+    height: 40px;
+}
+
+
+//menu
+
+#main-nav {
+    display: block;
+    height: 90px;
+    grid-column:3/5
+}
+
+#main-nav ul {
+    margin-top: 55px;
+    padding:0;
+  }
+
+  a {
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+  }
+
+  #main-nav li {
+    display:inline;
+    margin-right: 30px;
+    font-family: "DM Serif Display", serif;
+  }
+
+  #main-nav li:last-child {
+    margin-right: 0;
+  }
+
+  #main-nav li a {
+    color: #EAC248;
+    font-size: 22px;
+  }
+
+  #main-nav li a:hover {
+  padding-bottom: 8px;
+  border-bottom: 3px solid #EAC248;
+  }
+
+  //social media
+
+  #social-media {
+    font-family: "DM Sans", serif;
+    font-size: 15px;
+    color: #000;
+    margin-top: 40px;
+  }
+
+  //footer text
+
+  #footer-text {
+    grid-column: 3/5;
+    grid-row: 3;
+    font-family: "DM Serif Display", serif;
+    font-size: 10px;
+    margin-top: 40px;
+  }
