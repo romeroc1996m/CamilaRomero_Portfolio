@@ -10,12 +10,12 @@ footer {
 
 //menu
 
-#main-nav {
+#main-nav-footer {
     display: block;
     grid-column:3/5
 }
 
-#main-nav ul {
+#main-nav-footer ul {
     margin-top: 55px;
     padding:0;
   }
@@ -25,22 +25,22 @@ a {
     transition: all 0.5s ease-in-out;
 }
 
-#main-nav li {
+#main-nav-footer li {
     display:inline;
     margin-right: 30px;
     font-family: "DM Serif Display", serif;
 }
 
-#main-nav li:last-child {
+#main-nav-footer li:last-child {
     margin-right: 0;
 }
 
-#main-nav li a {
+#main-nav-footer li a {
     color: #EAC248;
     font-size: 22px;
 }
 
-#main-nav li a:hover {
+#main-nav-footer li a:hover {
   padding-bottom: 8px;
   border-bottom: 3px solid #EAC248;
 }
