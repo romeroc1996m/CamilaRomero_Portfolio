@@ -1,5 +1,5 @@
 .skills{
-    height: 500px;
+    height: 1969px;
 }
 
 #skills_title {
@@ -7,13 +7,13 @@
     font-size: 60px;
     color: #EAC249;
     grid-column: 1/4;
-    margin-left: 73px;
+    margin-left: 95px;
     margin-top: 30px;
 }
 
 .id-skills1 {
     font-family: "DM Serif Display", serif;
-    color: #EAC249;
+    color: #000;
     font-size: 30px;
     grid-column: 1/5;
     text-align: center;
@@ -53,7 +53,7 @@
 
 .id-skills2 {
     font-family: "DM Serif Display", serif;
-    color: #EAC249;
+    color: #000;
     font-size: 30px;
     grid-column: 1/5;
     text-align: center;
@@ -91,7 +91,7 @@
 
 .id-skills3 {
     font-family: "DM Serif Display", serif;
-    color: #EAC249;
+    color: #000;
     font-size: 30px;
     grid-column: 1/5;
     text-align: center;
@@ -129,7 +129,7 @@
 
 .id-skills4 {
     font-family: "DM Serif Display", serif;
-    color: #EAC249;
+    color: #000;
     font-size: 30px;
     grid-column: 1/5;
     text-align: center;
@@ -264,6 +264,10 @@
 }
 
 @media screen and (min-width:1200px) {
+
+    .skills{
+        height: 1969px;
+    }
 
     #skills_title {
         font-size: 60px;

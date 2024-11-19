@@ -1,80 +1,85 @@
 .hidden {
-    display: none;
-  }
-  
-  #main-header{
-    background-color: #FFFFFF;
-    height: 100px;
-  }
-  
-  #main-logo{
-    margin: 10px;
-    grid-column: 4/4;
-  }
-  
-  #burger-nav {
-    grid-column: 1/2;
-    grid-row: 1;
-    width: 50px;
-    margin-left: 25px;
-    margin-top: 25px;
-  }
-  
-  #burger-nav label img{
-    height: 83px;
-    transition: all .5s ease;
-    cursor: pointer;
-    width: 70%;
-  }
-  
-  #burger-nav input, #burger-con{
-    display: none;
-  }
-  
-  #burger-nav input:checked ~ #burger-con {
-    display: block;
-    position: absolute;
-    transform: translateX(-5px);
-    background-color: #FFFFFF;
-    width: 300px;
-  }
-  
-  #burger-nav input:checked ~ label img{
-    transform: rotate(-90deg);
-  }
-  
-  #burger-nav ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    font-family: "DM Sans", sans-serif;;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  #burger-nav li a {
-    display: block;
-    /* trbl */
-    padding: 10px 0 10px 0;
-    text-align: center;
-    color:  #EAC248;
-  }
-  
-  #burger-nav li {
-    border-bottom: 1px solid  #EAC248;
-  }
-  
-  #burger-nav li:first-child {
-    border-top: 1px solid  #EAC248;
-  }
-  
-  // #burger-nav:last-child {
-  //   // margin-bottom: 100px;
-  // }
-  
-  #main-nav{
-    display: none;
-  }
+  display: none;
+}
+
+#main-header{
+  background-color: #fff;
+  height: 77px;
+}
+
+#main-logo{
+  height: 78px;
+  width: 68px;
+  grid-column: 4;
+  grid-row: 1;
+  margin-top: 20px;
+}
+
+#main-logo img{
+  width: 50%;
+}
+
+#burger-nav {
+  grid-column: 1;
+  grid-row: 1;
+  height: 68px;
+  width: 44px;
+  margin-left: 20px;
+}
+
+#burger-nav label img{
+  height: 83px;
+  transition: all .5s ease;
+  cursor: pointer;
+  width: 70%;
+}
+
+#burger-nav input, #burger-con{
+  display: none;
+}
+
+#burger-nav input:checked ~ #burger-con {
+  display: block;
+  position: absolute;
+  transform: translateX(-5px);
+  background-color: #F8EFD1;
+  width: 300px;
+}
+
+#burger-nav input:checked ~ label img{
+  transform: rotate(-90deg);
+}
+
+#burger-nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'DM Serif Display', serif;
+}
+
+#burger-nav li a {
+  display: block;
+  /* trbl */
+  padding: 10px 0 10px 0;
+  text-align: center;
+  color:  #EAC249;
+}
+
+#burger-nav li {
+  border-bottom: 1px solid  #EAC249;
+}
+
+#burger-nav li:first-child {
+  border-top: 1px solid  #EAC249;
+}
+
+#burger-nav:last-child {
+  margin-bottom: 10px;
+}
+
+#main-nav{
+  display: none;
+}
 
   
   @media screen and (min-width:768px) {
@@ -85,8 +90,8 @@
   
     #main-logo {
       grid-column: 10/-1;
-      height: 50px;
-      width: 50px;
+      height: 75px;
+      width: 75px;
     }
   
     #burger-nav input:checked ~ #burger-con {

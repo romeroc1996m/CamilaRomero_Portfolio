@@ -1,27 +1,20 @@
-#contact-title {
+.about-home {
+    background-color: #F8EFD1;
+    height: 400px;
+}
+
+#about-title {
     font-family: "DM Serif Display", serif;
     font-size: 40px;
     color: #000;
     grid-column: -5/-1;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 120px;
 }
 
 //button properties
 
-.skills-button {
-    border-radius: 131px;
-    height: 17px;
-    min-width: 345px;
-    font-family: "DM Serif Display",serif;
-    padding: inherit;
-    margin-top: 50px;
-    margin-bottom: 70px;
-}
-
-//button properties
-
-.contact-button {
+.about-button {
     appearance: none;
     background-color: transparent;
     border: 2px solid #EAC249;
@@ -46,42 +39,44 @@
     -webkit-user-select: none;
     touch-action: manipulation;
     will-change: transform;
-    margin-top: 290px;
-    margin-left: -360px;
+    margin-bottom: 70px;
    }
 
-   .contact-button:disabled {
+   .about-button:disabled {
     pointer-events: none;
    }
    
-   .contact-button:hover {
+   .about-button:hover {
     color: #000;
     background-color: #EAC249;
     box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
     transform: translateY(-2px);
    }
    
-   .contact-button:active {
+   .about-button:active {
     box-shadow: none;
     transform: translateY(0);
    }
 
 @media screen and (min-width:768px) {
-    #contact-title {
-        grid-column: -10/-4;
-        margin-top: 70px;
+    #about-title {
+        font-size: 40px;
+        grid-column: 4/10;
+        text-align: center;
+        margin-top: 120px;
     }
 
-    .contact-button {
-        margin-top: 300px;
-        margin-left: -371px;
+    //button properties
+
+    .about-button {
+        margin-top: 200px;
+        margin-left: -365px;
     }
 }
 
 @media screen and (min-width:1200px) {
-
-    .contact-button {
-        margin-left: -486px;
+    .about-button {
+        margin-top: 200px;
+        margin-left: -470px;
     }
-
 }
