@@ -1,0 +1,159 @@
+// banner
+
+#banner-GRP {
+    grid-column: 1/5;
+    width: 375px;
+    height: 650px;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/images/GRD/bannerGD_mobile.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#des-GRP {
+    background-color: #F8EFD1;
+    height: 570px;
+}
+
+.p-GRP {
+    font-size: 20px;
+    font-family: "DM Sans", sans-serif;
+    grid-column: 1/5;
+    text-align: center;
+    align-content: center;
+}
+
+//project1
+
+#project1-GRP {
+    height: 2600px;
+}
+
+#title-project1-GRP {
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    font-size: 52px;
+    grid-column: 1/5;
+    grid-row: 1;
+    margin-top: 50px;
+}
+
+#p1-GRP {
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    grid-column: 1/5;
+    grid-row: 1;
+    margin-top: 320px;
+    text-align: center;
+}
+
+#img1-GRP {
+    grid-column: 1/5;
+}
+
+#img2-GRP {
+    grid-column: 1/5;
+}
+
+#img3-GRP {
+    grid-column: 1/5;
+}
+
+#tools-title-project1-GRP {
+    font-family: "DM Serif Display", sans-serif;
+    font-size: 30px;
+    grid-column: 1/5;
+}
+
+#icon-GRP1 {
+    width: 73px;
+    height: 64px;
+    grid-column: 2/3;
+}
+
+#icon-GRP2 {
+    width: 73px;
+    height: 64px;
+    grid-column: 3/4;
+}
+
+//project2
+
+#project2-GRP {
+    height: 3200px;
+    background-color: #F8EFD1;
+}
+
+#title-project2-GRP {
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    font-size: 52px;
+    grid-column: 1/5;
+    grid-row: 1;
+    margin-top: 50px;
+}
+
+#p2-GRP {
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    grid-column: 1/5;
+    grid-row: 1;
+    margin-top: 260px;
+    text-align: center;
+}
+
+#img1-project2-GRP {
+    grid-column: 1/5;
+    margin-top: 30px;
+}
+
+#img2-project2-GRP {
+    grid-column: 1/5;
+}
+
+#img3-project2-GRP {
+    grid-column: 1/5;
+}
+
+#img4-project2-GRP {
+    grid-column: 1/5;
+}
+
+#tools-title-project1-GRP {
+    font-family: "DM Serif Display", sans-serif;
+    font-size: 30px;
+    grid-column: 1/5;
+    margin-top: 40px;
+}
+
+#icon-GRP3 {
+    grid-column: 3/4;
+    margin-bottom: 250px;
+}
+
+//project 3
+
+#project3-GRP {
+    height: 1500px;
+}
+
+#title-project3-GRP {
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    font-size: 52px;
+    grid-column: 1/5;
+    grid-row: 1;
+    margin-top: 50px;
+}
+
+#p3-GRP {
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    grid-column: 1/5;
+    grid-row: 1;
+    margin-top: 180px;
+    text-align: center;
+}
