@@ -442,3 +442,78 @@
     }
 
 }
+
+@media screen and (min-width:1200px) {
+    // banner
+
+    #banner-GRP {
+        width: 1200px;
+        height: 650px;
+        display: block;
+        background-image: url('/images/GRD/bannerGD.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+
+    #des-GRP {
+        height: 550px;
+    }
+
+    .p-GRP {
+        font-size: 30px;
+        grid-column: 2/12;
+    }
+
+     //project1
+
+     #project1-GRP {
+        height: 1450px;
+    }
+
+    #title-project1-GRP {
+        font-size: 70px;
+        grid-column: 2/12;
+    }
+
+    #p1-GRP {
+        font-size: 30px;
+        grid-column: 3/11;
+    }
+
+    #img1-GRP {
+        grid-column: 3/6;
+        height: 400px;
+        margin-top: 20px;
+    }
+
+    #img2-GRP {
+        grid-column: 7/-1;
+        height: 350px;
+    }
+
+    #img3-GRP {
+        grid-column: 3/7;
+    }
+
+    #img4-GRP {
+        grid-column: 7/-1;
+        width: 282px;
+    }
+
+    #tools-title-project1-GRP {
+        font-size: 30px;
+        grid-column: 3/8;
+    }
+
+    #icon-GRP1 {
+        width: 70px;
+        height: 70px;
+        grid-column: 5/7;
+    }
+
+    #icon-GRP1-1 {
+        width: 70px;
+        height: 70px;
+        grid-column: 7/9;
+    }
+}
