@@ -467,7 +467,7 @@
      //project1
 
      #project1-GRP {
-        height: 1450px;
+        height: 1650px;
     }
 
     #title-project1-GRP {
@@ -483,21 +483,21 @@
     #img1-GRP {
         grid-column: 3/6;
         height: 400px;
-        margin-top: 20px;
     }
 
     #img2-GRP {
         grid-column: 7/-1;
-        height: 350px;
+        height: 410px;
+        width: 270px;
     }
 
     #img3-GRP {
-        grid-column: 3/7;
+        grid-column: 3/6;
     }
 
     #img4-GRP {
         grid-column: 7/-1;
-        width: 282px;
+        width: 400px;
     }
 
     #tools-title-project1-GRP {
@@ -515,5 +515,129 @@
         width: 70px;
         height: 70px;
         grid-column: 7/9;
+    }
+
+    //project 2
+
+    #project2-GRP {
+        height: 1550px;
+    } 
+
+    #img1-project2-GRP {
+        grid-column: 3/7;
+        width: 340px;
+        height: 200px;
+        background-image: url('/images/GRD/print-content1-mobile2.png');
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #img1-1-project2-GRP {
+        grid-column: 7/11;
+        width: 340px;
+        height: 200px;
+        transition: 0.5s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url('/images/GRD/print-content1-mobile1.png');
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #img2-project2-GRP {
+        grid-column: 2/7;
+        width: 450px;
+        height: 320px;
+        transition: 0.5s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url('/images/GRD/print-content4-mobile1.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #img2-2-project2-GRP {
+        grid-column: 7/11;
+        width: 450px;
+        height: 320px;
+        transition: 0.5s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url('/images/GRD/print-content4-mobile1.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+    #img3-project2-GRP {
+        grid-column: 4/10;
+    }
+
+    #tools-title-project2-GRP {
+        font-size: 45px;
+        grid-column: 4/8;
+    }
+
+    #icon-GRP2 {
+        width: 70px;
+        height: 70px;
+        grid-column: 6/8;
+    }
+
+    #icon-GRP2-1 {
+        width: 70px;
+        height: 70px;
+        grid-column: 8/10;
+    }
+
+    //project 3
+
+    #project3-GRP {
+        height: 1800px;
+    }
+
+    #title-project3-GRP {
+        font-size: 60px;
+        grid-column: 3/11;
+    }
+
+    #p3-GRP {
+        font-size: 25px;
+        grid-column: 3/11;
+        margin-top: 240px;
+    }
+
+    #img1-GRP3 {
+        grid-column: 3/7;
+        margin-top: 60px;
+    }
+
+    #img2-GRP3 {
+        grid-column: 7/11;
+        margin-top: 60px;
+    }
+
+    #img3-GRP3 {
+        grid-column: 5/9;
+        margin-top: 60px;
+    }
+
+    #tools-title-project3-GRP {
+        font-size: 30px;
+        grid-column: 4/8;
+        margin-top: 60px;
+    }
+
+    #icon-GRP3 {
+        width: 70px;
+        height: 70px;
+        grid-column: 7/9;
+    }
+
+    #icon-GRP3-1 {
+        width: 69px;
+        height: 69px;
+        grid-column: 9/11;
     }
 }
