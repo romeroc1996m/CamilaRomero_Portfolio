@@ -1,6 +1,8 @@
+
+
 #contact {
-    height: 400px;
     background-color: #F8EFD1;
+    height: 400px;
 }
 
 #c-title {
@@ -48,8 +50,9 @@
     -webkit-user-select: none;
     touch-action: manipulation;
     will-change: transform;
-    font-family: "DM Serif Display", serif;
-   }
+    margin-bottom: 50px;
+    font-family: "DM Serif Display",serif;
+
 
    #contact-button:disabled {
     pointer-events: none;
@@ -75,7 +78,7 @@
     }
 
     .contact-button {
-        margin-top: 300px;
+        margin-top: 200px;
         margin-left: -371px;
     }
 }
