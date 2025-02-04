@@ -1,4 +1,10 @@
-#contact-title {
+
+#contact {
+    background-color: #F8EFD1;
+    height: 400px;
+}
+
+#c-title {
     font-family: "DM Serif Display", serif;
     font-size: 40px;
     color: #000;
@@ -46,8 +52,8 @@
     -webkit-user-select: none;
     touch-action: manipulation;
     will-change: transform;
-    margin-top: 290px;
-    margin-left: -360px;
+    margin-bottom: 50px;
+    font-family: "DM Serif Display",serif;
    }
 
    .contact-button:disabled {
@@ -67,13 +73,13 @@
    }
 
 @media screen and (min-width:768px) {
-    #contact-title {
+    #c-title {
         grid-column: -10/-4;
         margin-top: 70px;
     }
 
     .contact-button {
-        margin-top: 300px;
+        margin-top: 200px;
         margin-left: -371px;
     }
 }
