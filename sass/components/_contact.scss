@@ -1,5 +1,4 @@
 
-
 #contact {
     background-color: #F8EFD1;
     height: 400px;
@@ -9,23 +8,26 @@
     font-family: "DM Serif Display", serif;
     font-size: 40px;
     color: #000;
-    grid-column: 1/5;
+    grid-column: -5/-1;
     text-align: center;
-    margin-top: 90px;
+    margin-top: 50px;
 }
 
 //button properties
 
-#contact-button {
+.skills-button {
     border-radius: 131px;
-    height: 50px;
-    min-width: 250px;
-    margin-bottom: 30px;
+    height: 17px;
+    min-width: 345px;
+    font-family: "DM Serif Display",serif;
+    padding: inherit;
+    margin-top: 50px;
+    margin-bottom: 70px;
 }
 
 //button properties
 
-#contact-button {
+.contact-button {
     appearance: none;
     background-color: transparent;
     border: 2px solid #EAC249;
@@ -52,21 +54,20 @@
     will-change: transform;
     margin-bottom: 50px;
     font-family: "DM Serif Display",serif;
+    }
 
-
-   #contact-button:disabled {
+   .contact-button:disabled {
     pointer-events: none;
    }
    
-   #contact-button:hover {
-    font-family: "DM Serif Display", serif;
+   .contact-button:hover {
     color: #000;
     background-color: #EAC249;
     box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
     transform: translateY(-2px);
    }
    
-   #contact-button:active {
+   .contact-button:active {
     box-shadow: none;
     transform: translateY(0);
    }
