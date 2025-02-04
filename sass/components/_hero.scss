@@ -1,27 +1,32 @@
-#hero{
+#hero {
     width: 375px;
-    height: 380px;
+    height: 633px;
+    display: block;
+    background-image: url('/images/hero_mobile.jpg');
+    background-position: center;
+    background-size: cover;
 }
 
 @media screen and (min-width:768px) {
-    #hero{
+    #hero {
         width: 768px;
-        height: 570px;
+        height: 500px;
+        display: block;
+        background-image: url('/images/hero_768px.jpg');
+        background-position: center;
+        background-size: cover;
     }
 }
 
 @media screen and (min-width:1200px) {
 
-    #hero{
+    #hero {
         width: 1200px;
-        height: 900px;
+        height: 800px;
+        display: block;
+        background-image: url('/images/hero_1200px.jpg');
+        background-position: center;
+        background-size: cover;
     }
 
-}
-
-@media screen and (min-width:1920px) {
-    #hero{
-        width: 1920px;
-        height: 900px;
-    }
 }
